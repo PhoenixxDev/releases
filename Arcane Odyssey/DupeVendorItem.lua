@@ -1,8 +1,8 @@
 --[[
 
+    Made by makkara#4847
     Will make millions of the (itemToGet) in the vendor's inventory
     ** Make sure you don't have any of either items in your inventory!!
-
 
 ]]--
 
