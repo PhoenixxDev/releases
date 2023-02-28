@@ -45,7 +45,7 @@ _G.fishC = plr.Character.ChildAdded:Connect(function(child)
 end)
 
 _G.fishC2 = plr.Character.HumanoidRootPart.ChildAdded:Connect(function(child)
-    if child:IsA("BodyVelocity") and child.Name == "BodyVelocity" then
+    if child:IsA("BodyVelocity") and child.Name == "BodyVelocity" and plr.Character:FindFirstChild("BobberVal") then
         child.Velocity = Vector3.zero
     end
 end)
